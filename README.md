@@ -1,0 +1,2 @@
+# YOLO-v3-PyTorch
+This is a version of YOLO v3 completely implemented from scratch in pytorch which gives the user flexibility to change various parameters and specifications of the model such as loss functions, size and no. of anchor boxes, grid size etc. A feature which is generally missed in the usual implementations. All one has to do is to modify the train.py file to load the data and configure batch size and implement a forward and backward pass.
